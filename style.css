@@ -1,0 +1,146 @@
+body{
+/*	background: #F6F8FB;*/
+	background: white;
+	font-family: "Merienda", cursive;
+	font-family: "Lato", sans-serif;
+	height: 6350px;
+}
+
+*{
+	margin: 0;
+}
+
+#main_web{
+	width: 100%;
+	height: 5600px;
+	background: white;
+}
+
+#header{
+	padding-top: 20px;
+	display: flex;
+	background:	#F5F5F5;
+	height: 95px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 05px;
+	border: 1px solid #E6ECF5;
+}
+
+#wikipedia_container{
+	display: flex;
+}
+
+#wikipedia_words{
+	padding-left: 10px;
+}
+
+.icon-3line{
+	width: 20px;
+	height: 18px;
+	padding-top: 27px;
+	padding-right: 17px;
+	padding-bottom: 0px;
+	padding-left: 38px;
+}
+
+.container{
+	display: flex;
+}
+
+#side_bar{
+	width: 230px;
+	background: yellow;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+#main_element{
+	margin-left: 240px;
+}
+
+.icon-3dot{
+	width: 30px;
+	margin-top: 27px;
+	margin-left: 26px;
+	height: 15px;
+}
+
+.text_decoration{
+	text-decoration: none;
+}
+
+.text_decoration:hover{
+	text-decoration: underline;
+}
+
+.wikipedia_globe_pic{
+	width: 62px;
+	height: 62px;
+	padding-top: 7px;
+}
+
+.wikipedia_word_pic{
+	width: 150px;
+	padding-top: 12px;
+}
+
+.wikipedia_smlword_pic{
+	padding-top: 5px;
+}
+
+.search_input{
+	width: 480px;
+	height: 35px;
+	border: 0.5px solid gray;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+.search_submit{
+	width: 60px;
+	height: 35px;
+	margin-top: 20px;
+	background: #66707E;
+	border: 0.5px solid darkgray;
+	color: white;
+	font-weight: bold;
+}
+
+.search_submit:hover{
+	background: #E6ECF5;
+	color: black;
+}
+
+.contact_link{
+	margin-top: 23px;
+	margin-left: 245px;
+}
+
+.login_link{
+	margin-top: 23px;
+	margin-left: 12px;
+}
+
+.nav_bar-items{
+	color: black;
+	font-weight: bold;
+}
+
+.nav_bar-link{
+	margin-left: 43px;
+	font-size: 10.3px;
+}
+
+.nav_bar-link:hover{
+	color: blue;
+}
+
+.last_content{
+	margin-top: 50px;
+}
+
+.last_marked{
+	color: blue;
+}
